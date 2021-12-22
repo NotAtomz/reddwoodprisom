@@ -1,0 +1,1283 @@
+--[[
+    GUI Made By: Jmuse#3982
+    Full credit to the original script makers
+    Website: https://rbxcheats.github.io/RbxCheats/
+    If You Find Any Bugs/Errors Just Message Me On Discord - Jmuse#3982
+]]
+
+local RedwoodPrisonGUI = Instance.new("ScreenGui")
+local Everything = Instance.new("Frame")
+local MainGUI = Instance.new("ImageLabel")
+local TopPartButtons = Instance.new("ImageLabel")
+local TitleText = Instance.new("TextLabel")
+local SideFrame = Instance.new("Frame")
+local TopBar = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local Buttons = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local _1Local = Instance.new("TextButton")
+local Rage = Instance.new("TextButton")
+local Teleport = Instance.new("TextButton")
+local Message = Instance.new("TextButton")
+local Info = Instance.new("TextButton")
+local MainFrame = Instance.new("Frame")
+local Guns = Instance.new("Frame")
+local TopBar_2 = Instance.new("ImageLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local GunsFrame = Instance.new("Frame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local ACR = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local L86A2 = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local M60 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local UMP45 = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local M16 = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local Keycard = Instance.new("Frame")
+local TopBar_3 = Instance.new("ImageLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextLabel_7 = Instance.new("TextLabel")
+local KeycardFrame = Instance.new("Frame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local FakeID = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local Other = Instance.new("Frame")
+local TopBar_4 = Instance.new("ImageLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local TextLabel_9 = Instance.new("TextLabel")
+local OtherFrame = Instance.new("Frame")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local Btools = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local OpenDoors = Instance.new("TextButton")
+local TextLabel_11 = Instance.new("TextLabel")
+local RemoveDoors = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
+local Teams = Instance.new("Frame")
+local TopBar_5 = Instance.new("ImageLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local TextLabel_13 = Instance.new("TextLabel")
+local TeamsFrame = Instance.new("Frame")
+local UIListLayout_5 = Instance.new("UIListLayout")
+local Police = Instance.new("TextButton")
+local TextLabel_14 = Instance.new("TextLabel")
+local Inmate = Instance.new("TextButton")
+local TextLabel_15 = Instance.new("TextLabel")
+local RageFrame = Instance.new("Frame")
+local RageF = Instance.new("Frame")
+local TopBar_6 = Instance.new("ImageLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local TextLabel_16 = Instance.new("TextLabel")
+local RagerFrame = Instance.new("Frame")
+local UIListLayout_6 = Instance.new("UIListLayout")
+local killcops = Instance.new("TextButton")
+local TextLabel_17 = Instance.new("TextLabel")
+local killinmates = Instance.new("TextButton")
+local TextLabel_18 = Instance.new("TextLabel")
+local taseall = Instance.new("TextButton")
+local TextLabel_19 = Instance.new("TextLabel")
+local TeleportFrame = Instance.new("Frame")
+local TeleportF = Instance.new("Frame")
+local TopBar_7 = Instance.new("ImageLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local TextLabel_20 = Instance.new("TextLabel")
+local TeleportFF = Instance.new("Frame")
+local UIListLayout_7 = Instance.new("UIListLayout")
+local pc = Instance.new("TextButton")
+local TextLabel_21 = Instance.new("TextLabel")
+local pr = Instance.new("TextButton")
+local TextLabel_22 = Instance.new("TextLabel")
+local wf = Instance.new("TextButton")
+local TextLabel_23 = Instance.new("TextLabel")
+local fc = Instance.new("TextButton")
+local TextLabel_24 = Instance.new("TextLabel")
+local hp = Instance.new("TextButton")
+local TextLabel_25 = Instance.new("TextLabel")
+local MessageFrame = Instance.new("Frame")
+local MessageF = Instance.new("Frame")
+local TopBar_8 = Instance.new("ImageLabel")
+local UIGradient_8 = Instance.new("UIGradient")
+local TextLabel_26 = Instance.new("TextLabel")
+local MessageFF = Instance.new("Frame")
+local Title = Instance.new("TextBox")
+local UIListLayout_8 = Instance.new("UIListLayout")
+local Message_2 = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+local InfoFrame = Instance.new("Frame")
+local InfoF = Instance.new("Frame")
+local TopBar_9 = Instance.new("ImageLabel")
+local UIGradient_9 = Instance.new("UIGradient")
+local TextLabel_27 = Instance.new("TextLabel")
+local InfoFF = Instance.new("Frame")
+local UIListLayout_9 = Instance.new("UIListLayout")
+local TextLabel_28 = Instance.new("TextLabel")
+local TextLabel_29 = Instance.new("TextLabel")
+local TextLabel_30 = Instance.new("TextLabel")
+
+--Properties:
+
+RedwoodPrisonGUI.Name = "RedwoodPrisonGUI"
+RedwoodPrisonGUI.Parent = game.CoreGui
+
+Everything.Name = "Everything"
+Everything.Parent = RedwoodPrisonGUI
+Everything.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Everything.BackgroundTransparency = 1.000
+Everything.Position = UDim2.new(0.31545338, 0, 0.189189196, 0)
+Everything.Size = UDim2.new(0, 578, 0, 505)
+Everything.Visible = false
+Everything.Active = true
+Everything.Draggable = true
+
+MainGUI.Name = "MainGUI"
+MainGUI.Parent = Everything
+MainGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainGUI.BackgroundTransparency = 1.000
+MainGUI.Position = UDim2.new(-0.000472843647, 0, 0.123516664, 0)
+MainGUI.Size = UDim2.new(0, 578, 0, 442)
+MainGUI.Image = "rbxassetid://3570695787"
+MainGUI.ImageColor3 = Color3.fromRGB(45, 48, 55)
+MainGUI.ScaleType = Enum.ScaleType.Slice
+MainGUI.SliceCenter = Rect.new(100, 100, 100, 100)
+MainGUI.SliceScale = 0.050
+
+TopPartButtons.Name = "TopPartButtons"
+TopPartButtons.Parent = MainGUI
+TopPartButtons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopPartButtons.BackgroundTransparency = 1.000
+TopPartButtons.Position = UDim2.new(0, 0, -0.142533943, 0)
+TopPartButtons.Size = UDim2.new(0, 578, 0, 50)
+TopPartButtons.Image = "rbxassetid://3570695787"
+TopPartButtons.ImageColor3 = Color3.fromRGB(45, 48, 55)
+TopPartButtons.ScaleType = Enum.ScaleType.Slice
+TopPartButtons.SliceCenter = Rect.new(100, 100, 100, 100)
+TopPartButtons.SliceScale = 0.050
+
+TitleText.Name = "TitleText"
+TitleText.Parent = TopPartButtons
+TitleText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TitleText.BackgroundTransparency = 1.000
+TitleText.Position = UDim2.new(0, 0, 0.200000003, 0)
+TitleText.Size = UDim2.new(0, 153, 0, 40)
+TitleText.Font = Enum.Font.ArialBold
+TitleText.Text = "Redwood.Su"
+TitleText.TextColor3 = Color3.fromRGB(255, 255, 255)
+TitleText.TextSize = 18.000
+
+SideFrame.Name = "SideFrame"
+SideFrame.Parent = TitleText
+SideFrame.BackgroundColor3 = Color3.fromRGB(62, 68, 78)
+SideFrame.BorderSizePixel = 0
+SideFrame.Position = UDim2.new(0.991379261, 0, 0.200000003, 0)
+SideFrame.Size = UDim2.new(0, 1, 0, 23)
+
+TopBar.Name = "TopBar"
+TopBar.Parent = TopPartButtons
+TopBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopBar.BackgroundTransparency = 1.000
+TopBar.Size = UDim2.new(0, 578, 0, 10)
+TopBar.Image = "rbxassetid://3570695787"
+TopBar.ScaleType = Enum.ScaleType.Slice
+TopBar.SliceCenter = Rect.new(100, 100, 100, 100)
+TopBar.SliceScale = 0.050
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(199, 110, 43)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 185, 101))}
+UIGradient.Parent = TopBar
+
+Buttons.Name = "Buttons"
+Buttons.Parent = TopPartButtons
+Buttons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Buttons.BackgroundTransparency = 1.000
+Buttons.Position = UDim2.new(0.283813149, 0, 0.200000003, 0)
+Buttons.Size = UDim2.new(0, 413, 0, 40)
+
+UIListLayout.Parent = Buttons
+UIListLayout.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+
+_1Local.Name = "1Local"
+_1Local.Parent = Buttons
+_1Local.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1Local.BackgroundTransparency = 1.000
+_1Local.Position = UDim2.new(0.494883269, 0, 0.254999995, 0)
+_1Local.Size = UDim2.new(0, 77, 0, 32)
+_1Local.Font = Enum.Font.ArialBold
+_1Local.Text = "Local"
+_1Local.TextColor3 = Color3.fromRGB(193, 193, 193)
+_1Local.TextSize = 14.000
+_1Local.MouseButton1Click:connect(function()
+	MainFrame.Visible = true
+	RageFrame.Visible = false
+	TeleportFrame.Visible = false
+	MessageFrame.Visible = false
+	InfoFrame.Visible = false
+	
+	_1Local.TextColor3 = Color3.fromRGB(255,255,255)
+	Rage.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Teleport.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Message.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Info.TextColor3 = Color3.fromRGB(193, 193, 193)
+end)
+
+Rage.Name = "Rage"
+Rage.Parent = Buttons
+Rage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rage.BackgroundTransparency = 1.000
+Rage.Position = UDim2.new(0.494883269, 0, 0.254999995, 0)
+Rage.Size = UDim2.new(0, 77, 0, 32)
+Rage.Font = Enum.Font.ArialBold
+Rage.Text = "Rage"
+Rage.TextColor3 = Color3.fromRGB(193, 193, 193)
+Rage.TextSize = 14.000
+Rage.MouseButton1Click:connect(function()
+	MainFrame.Visible = false
+	RageFrame.Visible = true
+	TeleportFrame.Visible = false
+	MessageFrame.Visible = false
+	InfoFrame.Visible = false
+	
+	_1Local.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Rage.TextColor3 = Color3.fromRGB(255,255,255)
+	Teleport.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Message.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Info.TextColor3 = Color3.fromRGB(193, 193, 193)
+end)
+
+Teleport.Name = "Teleport"
+Teleport.Parent = Buttons
+Teleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Teleport.BackgroundTransparency = 1.000
+Teleport.Position = UDim2.new(0.494883269, 0, 0.254999995, 0)
+Teleport.Size = UDim2.new(0, 77, 0, 32)
+Teleport.Font = Enum.Font.ArialBold
+Teleport.Text = "Teleports"
+Teleport.TextColor3 = Color3.fromRGB(193, 193, 193)
+Teleport.TextSize = 14.000
+Teleport.MouseButton1Click:connect(function()
+	MainFrame.Visible = false
+	RageFrame.Visible = false
+	TeleportFrame.Visible = true
+	MessageFrame.Visible = false
+	InfoFrame.Visible = false
+	
+	_1Local.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Rage.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Teleport.TextColor3 = Color3.fromRGB(255,255,255)
+	Message.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Info.TextColor3 = Color3.fromRGB(193, 193, 193)
+end)
+
+Message.Name = "Message"
+Message.Parent = Buttons
+Message.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Message.BackgroundTransparency = 1.000
+Message.Position = UDim2.new(0.494883269, 0, 0.254999995, 0)
+Message.Size = UDim2.new(0, 77, 0, 32)
+Message.Font = Enum.Font.ArialBold
+Message.Text = "Message"
+Message.TextColor3 = Color3.fromRGB(193, 193, 193)
+Message.TextSize = 14.000
+Message.MouseButton1Click:connect(function()
+	MainFrame.Visible = false
+	RageFrame.Visible = false
+	TeleportFrame.Visible = false
+	MessageFrame.Visible = true
+	InfoFrame.Visible = false
+	
+	_1Local.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Rage.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Teleport.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Message.TextColor3 = Color3.fromRGB(255,255,255)
+	Info.TextColor3 = Color3.fromRGB(193, 193, 193)
+end)
+
+Info.Name = "Info"
+Info.Parent = Buttons
+Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info.BackgroundTransparency = 1.000
+Info.Position = UDim2.new(0.494883269, 0, 0.254999995, 0)
+Info.Size = UDim2.new(0, 77, 0, 32)
+Info.Font = Enum.Font.ArialBold
+Info.Text = "Info"
+Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+Info.TextSize = 14.000
+Info.MouseButton1Click:connect(function()
+	MainFrame.Visible = false
+	RageFrame.Visible = false
+	TeleportFrame.Visible = false
+	MessageFrame.Visible = false
+	InfoFrame.Visible = true
+	
+	_1Local.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Rage.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Teleport.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Message.TextColor3 = Color3.fromRGB(193, 193, 193)
+	Info.TextColor3 = Color3.fromRGB(255,255,255)
+end)
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = MainGUI
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BackgroundTransparency = 1.000
+MainFrame.Position = UDim2.new(0, 0, 0.0180995483, 0)
+MainFrame.Size = UDim2.new(0, 578, 0, 425)
+MainFrame.Visible = false
+
+Guns.Name = "Guns"
+Guns.Parent = MainFrame
+Guns.BackgroundColor3 = Color3.fromRGB(51, 54, 63)
+Guns.BorderSizePixel = 0
+Guns.Position = UDim2.new(0.0328719728, 0, 0.0713122189, 0)
+Guns.Size = UDim2.new(0, 259, 0, 183)
+
+TopBar_2.Name = "TopBar"
+TopBar_2.Parent = Guns
+TopBar_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopBar_2.BackgroundTransparency = 1.000
+TopBar_2.Size = UDim2.new(0, 259, 0, 10)
+TopBar_2.Image = "rbxassetid://3570695787"
+TopBar_2.ScaleType = Enum.ScaleType.Slice
+TopBar_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TopBar_2.SliceScale = 0.050
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(199, 110, 43)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 185, 101))}
+UIGradient_2.Parent = TopBar_2
+
+TextLabel.Parent = Guns
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, -0.103825137, 0)
+TextLabel.Size = UDim2.new(0, 35, 0, 19)
+TextLabel.Font = Enum.Font.ArialBold
+TextLabel.Text = "Guns"
+TextLabel.TextColor3 = Color3.fromRGB(255, 185, 101)
+TextLabel.TextSize = 14.000
+
+GunsFrame.Name = "GunsFrame"
+GunsFrame.Parent = Guns
+GunsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GunsFrame.BackgroundTransparency = 1.000
+GunsFrame.Position = UDim2.new(0.0849420875, 0, 0.142076507, 0)
+GunsFrame.Size = UDim2.new(0, 215, 0, 146)
+
+UIListLayout_2.Parent = GunsFrame
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0.0700000003, 0)
+
+ACR.Name = "ACR"
+ACR.Parent = GunsFrame
+ACR.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+ACR.BorderColor3 = Color3.fromRGB(85, 97, 117)
+ACR.Size = UDim2.new(0, 23, 0, 20)
+ACR.Font = Enum.Font.SourceSans
+ACR.Text = ""
+ACR.TextColor3 = Color3.fromRGB(0, 0, 0)
+ACR.TextSize = 14.000
+ACR.MouseButton1Click:connect(function()
+	game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "ACR")
+end)
+
+TextLabel_2.Parent = ACR
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_2.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_2.Font = Enum.Font.ArialBold
+TextLabel_2.Text = "ACR"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+L86A2.Name = "L86A2"
+L86A2.Parent = GunsFrame
+L86A2.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+L86A2.BorderColor3 = Color3.fromRGB(85, 97, 117)
+L86A2.Size = UDim2.new(0, 23, 0, 20)
+L86A2.Font = Enum.Font.SourceSans
+L86A2.Text = ""
+L86A2.TextColor3 = Color3.fromRGB(0, 0, 0)
+L86A2.TextSize = 14.000
+L86A2.MouseButton1Click:connect(function()
+	game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "L86A2")
+end)
+
+TextLabel_3.Parent = L86A2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_3.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_3.Font = Enum.Font.ArialBold
+TextLabel_3.Text = "L86A2"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+M60.Name = "M60"
+M60.Parent = GunsFrame
+M60.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+M60.BorderColor3 = Color3.fromRGB(85, 97, 117)
+M60.Size = UDim2.new(0, 23, 0, 20)
+M60.Font = Enum.Font.SourceSans
+M60.Text = ""
+M60.TextColor3 = Color3.fromRGB(0, 0, 0)
+M60.TextSize = 14.000
+M60.MouseButton1Click:connect(function()
+	game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "M60")
+end)
+
+TextLabel_4.Parent = M60
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_4.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_4.Font = Enum.Font.ArialBold
+TextLabel_4.Text = "M60"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+UMP45.Name = "UMP-45"
+UMP45.Parent = GunsFrame
+UMP45.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+UMP45.BorderColor3 = Color3.fromRGB(85, 97, 117)
+UMP45.Size = UDim2.new(0, 23, 0, 20)
+UMP45.Font = Enum.Font.SourceSans
+UMP45.Text = ""
+UMP45.TextColor3 = Color3.fromRGB(0, 0, 0)
+UMP45.TextSize = 14.000
+UMP45.MouseButton1Click:connect(function()
+	game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "UMP-45")
+end)
+
+TextLabel_5.Parent = UMP45
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_5.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_5.Font = Enum.Font.ArialBold
+TextLabel_5.Text = "UMP-45"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+M16.Name = "M16"
+M16.Parent = GunsFrame
+M16.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+M16.BorderColor3 = Color3.fromRGB(85, 97, 117)
+M16.Size = UDim2.new(0, 23, 0, 20)
+M16.Font = Enum.Font.SourceSans
+M16.Text = ""
+M16.TextColor3 = Color3.fromRGB(0, 0, 0)
+M16.TextSize = 14.000
+M16.MouseButton1Click:connect(function()
+	game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "M16")
+end)
+
+TextLabel_6.Parent = M16
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_6.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_6.Font = Enum.Font.ArialBold
+TextLabel_6.Text = "M16"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+Keycard.Name = "Keycard"
+Keycard.Parent = MainFrame
+Keycard.BackgroundColor3 = Color3.fromRGB(51, 54, 63)
+Keycard.BorderSizePixel = 0
+Keycard.Position = UDim2.new(0.519031227, 0, 0.0713121817, 0)
+Keycard.Size = UDim2.new(0, 259, 0, 76)
+
+TopBar_3.Name = "TopBar"
+TopBar_3.Parent = Keycard
+TopBar_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopBar_3.BackgroundTransparency = 1.000
+TopBar_3.Size = UDim2.new(0, 259, 0, 10)
+TopBar_3.Image = "rbxassetid://3570695787"
+TopBar_3.ScaleType = Enum.ScaleType.Slice
+TopBar_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TopBar_3.SliceScale = 0.050
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(199, 110, 43)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 185, 101))}
+UIGradient_3.Parent = TopBar_3
+
+TextLabel_7.Parent = Keycard
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0, 0, -0.261719882, 0)
+TextLabel_7.Size = UDim2.new(0, 58, 0, 19)
+TextLabel_7.Font = Enum.Font.ArialBold
+TextLabel_7.Text = "Fake ID"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 185, 101)
+TextLabel_7.TextSize = 14.000
+
+KeycardFrame.Name = "KeycardFrame"
+KeycardFrame.Parent = Keycard
+KeycardFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KeycardFrame.BackgroundTransparency = 1.000
+KeycardFrame.Position = UDim2.new(0.0849420875, 0, 0.355263174, 0)
+KeycardFrame.Size = UDim2.new(0, 215, 0, 31)
+
+UIListLayout_3.Parent = KeycardFrame
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_3.Padding = UDim.new(0.0700000003, 0)
+
+FakeID.Name = "FakeID"
+FakeID.Parent = KeycardFrame
+FakeID.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+FakeID.BorderColor3 = Color3.fromRGB(85, 97, 117)
+FakeID.Size = UDim2.new(0, 23, 0, 20)
+FakeID.Font = Enum.Font.SourceSans
+FakeID.Text = ""
+FakeID.TextColor3 = Color3.fromRGB(0, 0, 0)
+FakeID.TextSize = 14.000
+FakeID.MouseButton1Click:connect(function()
+	game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "Fake ID Card")
+end)
+
+TextLabel_8.Parent = FakeID
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_8.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_8.Font = Enum.Font.ArialBold
+TextLabel_8.Text = "Give Fake ID"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+Other.Name = "Other"
+Other.Parent = MainFrame
+Other.BackgroundColor3 = Color3.fromRGB(51, 54, 63)
+Other.BorderSizePixel = 0
+Other.Position = UDim2.new(0.03287201, 0, 0.571402848, 0)
+Other.Size = UDim2.new(0, 259, 0, 151)
+
+TopBar_4.Name = "TopBar"
+TopBar_4.Parent = Other
+TopBar_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopBar_4.BackgroundTransparency = 1.000
+TopBar_4.Size = UDim2.new(0, 259, 0, 10)
+TopBar_4.Image = "rbxassetid://3570695787"
+TopBar_4.ScaleType = Enum.ScaleType.Slice
+TopBar_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TopBar_4.SliceScale = 0.050
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(199, 110, 43)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 185, 101))}
+UIGradient_4.Parent = TopBar_4
+
+TextLabel_9.Parent = Other
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0, 0, -0.126812056, 0)
+TextLabel_9.Size = UDim2.new(0, 45, 0, 19)
+TextLabel_9.Font = Enum.Font.ArialBold
+TextLabel_9.Text = "Other"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 185, 101)
+TextLabel_9.TextSize = 14.000
+
+OtherFrame.Name = "OtherFrame"
+OtherFrame.Parent = Other
+OtherFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OtherFrame.BackgroundTransparency = 1.000
+OtherFrame.Position = UDim2.new(0.0849420875, 0, 0.188434124, 0)
+OtherFrame.Size = UDim2.new(0, 215, 0, 146)
+
+UIListLayout_4.Parent = OtherFrame
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0.0700000003, 0)
+
+Btools.Name = "Btools"
+Btools.Parent = OtherFrame
+Btools.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+Btools.BorderColor3 = Color3.fromRGB(85, 97, 117)
+Btools.Size = UDim2.new(0, 23, 0, 20)
+Btools.Font = Enum.Font.SourceSans
+Btools.Text = ""
+Btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+Btools.TextSize = 14.000
+Btools.MouseButton1Click:connect(function()
+	wait(0.1)
+local tool1 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+local tool2 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+local tool3 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+tool1.BinType = "Clone"
+tool2.BinType = "Hammer"
+tool3.BinType = "Grab"
+end)
+
+TextLabel_10.Parent = Btools
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_10.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_10.Font = Enum.Font.ArialBold
+TextLabel_10.Text = "Btools"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+OpenDoors.Name = "OpenDoors"
+OpenDoors.Parent = OtherFrame
+OpenDoors.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+OpenDoors.BorderColor3 = Color3.fromRGB(85, 97, 117)
+OpenDoors.Size = UDim2.new(0, 23, 0, 20)
+OpenDoors.Font = Enum.Font.SourceSans
+OpenDoors.Text = ""
+OpenDoors.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenDoors.TextSize = 14.000
+OpenDoors.MouseButton1Click:connect(function()
+	for i,v in pairs(game.Workspace.AllDoors:GetChildren()) do
+	game.Workspace.resources.RemoteEvent:FireServer("updateDoorSystem", v)
+	end
+end)
+
+TextLabel_11.Parent = OpenDoors
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_11.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_11.Font = Enum.Font.ArialBold
+TextLabel_11.Text = "Open Doors"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+RemoveDoors.Name = "RemoveDoors"
+RemoveDoors.Parent = OtherFrame
+RemoveDoors.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+RemoveDoors.BorderColor3 = Color3.fromRGB(85, 97, 117)
+RemoveDoors.Size = UDim2.new(0, 23, 0, 20)
+RemoveDoors.Font = Enum.Font.SourceSans
+RemoveDoors.Text = ""
+RemoveDoors.TextColor3 = Color3.fromRGB(0, 0, 0)
+RemoveDoors.TextSize = 14.000
+RemoveDoors.MouseButton1Click:connect(function()
+	game.workspace.AllDoors:remove()
+end)
+
+TextLabel_12.Parent = RemoveDoors
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_12.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_12.Font = Enum.Font.ArialBold
+TextLabel_12.Text = "Remove Doors"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+
+Teams.Name = "Teams"
+Teams.Parent = MainFrame
+Teams.BackgroundColor3 = Color3.fromRGB(51, 54, 63)
+Teams.BorderSizePixel = 0
+Teams.Position = UDim2.new(0.519031227, 0, 0.318370998, 0)
+Teams.Size = UDim2.new(0, 259, 0, 258)
+
+TopBar_5.Name = "TopBar"
+TopBar_5.Parent = Teams
+TopBar_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopBar_5.BackgroundTransparency = 1.000
+TopBar_5.Size = UDim2.new(0, 259, 0, 10)
+TopBar_5.Image = "rbxassetid://3570695787"
+TopBar_5.ScaleType = Enum.ScaleType.Slice
+TopBar_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TopBar_5.SliceScale = 0.050
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(199, 110, 43)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 185, 101))}
+UIGradient_5.Parent = TopBar_5
+
+TextLabel_13.Parent = Teams
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0, 0, -0.0756734237, 0)
+TextLabel_13.Size = UDim2.new(0, 45, 0, 19)
+TextLabel_13.Font = Enum.Font.ArialBold
+TextLabel_13.Text = "Teams"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 185, 101)
+TextLabel_13.TextSize = 14.000
+
+TeamsFrame.Name = "TeamsFrame"
+TeamsFrame.Parent = Teams
+TeamsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeamsFrame.BackgroundTransparency = 1.000
+TeamsFrame.Position = UDim2.new(0.0849420875, 0, 0.118837222, 0)
+TeamsFrame.Size = UDim2.new(0, 215, 0, 227)
+
+UIListLayout_5.Parent = TeamsFrame
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_5.Padding = UDim.new(0.0700000003, 0)
+
+Police.Name = "Police"
+Police.Parent = TeamsFrame
+Police.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+Police.BorderColor3 = Color3.fromRGB(85, 97, 117)
+Police.Size = UDim2.new(0, 23, 0, 20)
+Police.Font = Enum.Font.SourceSans
+Police.Text = ""
+Police.TextColor3 = Color3.fromRGB(0, 0, 0)
+Police.TextSize = 14.000
+Police.MouseButton1Click:connect(function()
+	local A_1 = "requestTeam"
+	local A_2 = "police"
+	local Event = game:GetService("Workspace").resources.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+end)
+
+TextLabel_14.Parent = Police
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_14.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_14.Font = Enum.Font.ArialBold
+TextLabel_14.Text = "Police"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+
+Inmate.Name = "Inmate"
+Inmate.Parent = TeamsFrame
+Inmate.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+Inmate.BorderColor3 = Color3.fromRGB(85, 97, 117)
+Inmate.Size = UDim2.new(0, 23, 0, 20)
+Inmate.Font = Enum.Font.SourceSans
+Inmate.Text = ""
+Inmate.TextColor3 = Color3.fromRGB(0, 0, 0)
+Inmate.TextSize = 14.000
+Inmate.MouseButton1Click:connect(function()
+	local A_1 = "requestTeam"
+	local A_2 = "prisoners"
+	local Event = game:GetService("Workspace").resources.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+end)
+
+TextLabel_15.Parent = Inmate
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_15.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_15.Font = Enum.Font.ArialBold
+TextLabel_15.Text = "Inmate"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+
+RageFrame.Name = "RageFrame"
+RageFrame.Parent = MainGUI
+RageFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RageFrame.BackgroundTransparency = 1.000
+RageFrame.Position = UDim2.new(0, 0, 0.0180995483, 0)
+RageFrame.Size = UDim2.new(0, 578, 0, 425)
+RageFrame.Visible = false
+
+RageF.Name = "RageF"
+RageF.Parent = RageFrame
+RageF.BackgroundColor3 = Color3.fromRGB(51, 54, 63)
+RageF.BorderSizePixel = 0
+RageF.Position = UDim2.new(0.0328719728, 0, 0.0713122189, 0)
+RageF.Size = UDim2.new(0, 259, 0, 183)
+
+TopBar_6.Name = "TopBar"
+TopBar_6.Parent = RageF
+TopBar_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopBar_6.BackgroundTransparency = 1.000
+TopBar_6.Size = UDim2.new(0, 259, 0, 10)
+TopBar_6.Image = "rbxassetid://3570695787"
+TopBar_6.ScaleType = Enum.ScaleType.Slice
+TopBar_6.SliceCenter = Rect.new(100, 100, 100, 100)
+TopBar_6.SliceScale = 0.050
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(199, 110, 43)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 185, 101))}
+UIGradient_6.Parent = TopBar_6
+
+TextLabel_16.Parent = RageF
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0, 0, -0.103825137, 0)
+TextLabel_16.Size = UDim2.new(0, 35, 0, 19)
+TextLabel_16.Font = Enum.Font.ArialBold
+TextLabel_16.Text = "Rage"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 185, 101)
+TextLabel_16.TextSize = 14.000
+
+RagerFrame.Name = "RagerFrame"
+RagerFrame.Parent = RageF
+RagerFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RagerFrame.BackgroundTransparency = 1.000
+RagerFrame.Position = UDim2.new(0.0849420875, 0, 0.142076507, 0)
+RagerFrame.Size = UDim2.new(0, 215, 0, 146)
+
+UIListLayout_6.Parent = RagerFrame
+UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_6.Padding = UDim.new(0.0700000003, 0)
+
+killcops.Name = "killcops"
+killcops.Parent = RagerFrame
+killcops.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+killcops.BorderColor3 = Color3.fromRGB(85, 97, 117)
+killcops.Size = UDim2.new(0, 23, 0, 20)
+killcops.Font = Enum.Font.SourceSans
+killcops.Text = ""
+killcops.TextColor3 = Color3.fromRGB(0, 0, 0)
+killcops.TextSize = 14.000
+killcops.MouseButton1Click:connect(function()
+	local A_1 = "requestTeam"
+	local A_2 = "prisoners"
+	local Event = game:GetService("Workspace").resources.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+
+	for _, v in pairs(game.Players:GetChildren()) do
+	game.Workspace.resources.RemoteEvent:FireServer("dealDamage", v.Character.Humanoid, 100) 
+	end
+
+	local A_1 = "requestTeam"
+	local A_2 = "police"
+	local Event = game:GetService("Workspace").resources.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+end)
+
+TextLabel_17.Parent = killcops
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_17.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_17.Font = Enum.Font.ArialBold
+TextLabel_17.Text = "Kill Cops"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextXAlignment = Enum.TextXAlignment.Left
+
+killinmates.Name = "killinmates"
+killinmates.Parent = RagerFrame
+killinmates.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+killinmates.BorderColor3 = Color3.fromRGB(85, 97, 117)
+killinmates.Size = UDim2.new(0, 23, 0, 20)
+killinmates.Font = Enum.Font.SourceSans
+killinmates.Text = ""
+killinmates.TextColor3 = Color3.fromRGB(0, 0, 0)
+killinmates.TextSize = 14.000
+killinmates.MouseButton1Click:connect(function()
+		local A_1 = "requestTeam"
+	local A_2 = "police"
+	local Event = game:GetService("Workspace").resources.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+
+	for _, v in pairs(game.Players:GetChildren()) do
+	game.Workspace.resources.RemoteEvent:FireServer("dealDamage", v.Character.Humanoid, 100) 
+	end
+
+	local A_1 = "requestTeam"
+	local A_2 = "prisoners"
+	local Event = game:GetService("Workspace").resources.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+end)
+
+TextLabel_18.Parent = killinmates
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_18.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_18.Font = Enum.Font.ArialBold
+TextLabel_18.Text = "Kill Inmates"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextXAlignment = Enum.TextXAlignment.Left
+
+taseall.Name = "taseall"
+taseall.Parent = RagerFrame
+taseall.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+taseall.BorderColor3 = Color3.fromRGB(85, 97, 117)
+taseall.Size = UDim2.new(0, 23, 0, 20)
+taseall.Font = Enum.Font.SourceSans
+taseall.Text = ""
+taseall.TextColor3 = Color3.fromRGB(0, 0, 0)
+taseall.TextSize = 14.000
+taseall.MouseButton1Click:connect(function()
+	for _, v in pairs(game.Players:GetChildren()) do
+	game.Workspace.resources.RemoteEvent:FireServer("tase", v) 
+	end
+end)
+
+TextLabel_19.Parent = taseall
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_19.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_19.Font = Enum.Font.ArialBold
+TextLabel_19.Text = "Tase All"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextXAlignment = Enum.TextXAlignment.Left
+
+TeleportFrame.Name = "TeleportFrame"
+TeleportFrame.Parent = MainGUI
+TeleportFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeleportFrame.BackgroundTransparency = 1.000
+TeleportFrame.Position = UDim2.new(0, 0, 0.0180995483, 0)
+TeleportFrame.Size = UDim2.new(0, 578, 0, 425)
+TeleportFrame.Visible = false
+
+TeleportF.Name = "TeleportF"
+TeleportF.Parent = TeleportFrame
+TeleportF.BackgroundColor3 = Color3.fromRGB(51, 54, 63)
+TeleportF.BorderSizePixel = 0
+TeleportF.Position = UDim2.new(0.0328719728, 0, 0.0713122189, 0)
+TeleportF.Size = UDim2.new(0, 259, 0, 183)
+
+TopBar_7.Name = "TopBar"
+TopBar_7.Parent = TeleportF
+TopBar_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopBar_7.BackgroundTransparency = 1.000
+TopBar_7.Size = UDim2.new(0, 259, 0, 10)
+TopBar_7.Image = "rbxassetid://3570695787"
+TopBar_7.ScaleType = Enum.ScaleType.Slice
+TopBar_7.SliceCenter = Rect.new(100, 100, 100, 100)
+TopBar_7.SliceScale = 0.050
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(199, 110, 43)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 185, 101))}
+UIGradient_7.Parent = TopBar_7
+
+TextLabel_20.Parent = TeleportF
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0, 0, -0.103825137, 0)
+TextLabel_20.Size = UDim2.new(0, 58, 0, 19)
+TextLabel_20.Font = Enum.Font.ArialBold
+TextLabel_20.Text = "Teleports"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 185, 101)
+TextLabel_20.TextSize = 14.000
+
+TeleportFF.Name = "TeleportFF"
+TeleportFF.Parent = TeleportF
+TeleportFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeleportFF.BackgroundTransparency = 1.000
+TeleportFF.Position = UDim2.new(0.0849420875, 0, 0.142076507, 0)
+TeleportFF.Size = UDim2.new(0, 215, 0, 146)
+
+UIListLayout_7.Parent = TeleportFF
+UIListLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_7.Padding = UDim.new(0.0700000003, 0)
+
+pc.Name = "pc"
+pc.Parent = TeleportFF
+pc.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+pc.BorderColor3 = Color3.fromRGB(85, 97, 117)
+pc.Size = UDim2.new(0, 23, 0, 20)
+pc.Font = Enum.Font.SourceSans
+pc.Text = ""
+pc.TextColor3 = Color3.fromRGB(0, 0, 0)
+pc.TextSize = 14.000
+pc.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6.10489082, 4, -15.8136148)
+end)
+
+TextLabel_21.Parent = pc
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_21.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_21.Font = Enum.Font.ArialBold
+TextLabel_21.Text = "Prison Cells"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextXAlignment = Enum.TextXAlignment.Left
+
+pr.Name = "pr"
+pr.Parent = TeleportFF
+pr.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+pr.BorderColor3 = Color3.fromRGB(85, 97, 117)
+pr.Size = UDim2.new(0, 23, 0, 20)
+pr.Font = Enum.Font.SourceSans
+pr.Text = ""
+pr.TextColor3 = Color3.fromRGB(0, 0, 0)
+pr.TextSize = 14.000
+pr.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(102.768036, 4, 2.36553288)
+end)
+
+TextLabel_22.Parent = pr
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_22.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_22.Font = Enum.Font.ArialBold
+TextLabel_22.Text = "Police Room"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextXAlignment = Enum.TextXAlignment.Left
+
+wf.Name = "wf"
+wf.Parent = TeleportFF
+wf.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+wf.BorderColor3 = Color3.fromRGB(85, 97, 117)
+wf.Size = UDim2.new(0, 23, 0, 20)
+wf.Font = Enum.Font.SourceSans
+wf.Text = ""
+wf.TextColor3 = Color3.fromRGB(0, 0, 0)
+wf.TextSize = 14.000
+wf.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(542.734741, 4, -222.763535)
+end)
+
+TextLabel_23.Parent = wf
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_23.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_23.Font = Enum.Font.ArialBold
+TextLabel_23.Text = "Waterfall"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextXAlignment = Enum.TextXAlignment.Left
+
+fc.Name = "fc"
+fc.Parent = TeleportFF
+fc.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+fc.BorderColor3 = Color3.fromRGB(85, 97, 117)
+fc.Size = UDim2.new(0, 23, 0, 20)
+fc.Font = Enum.Font.SourceSans
+fc.Text = ""
+fc.TextColor3 = Color3.fromRGB(0, 0, 0)
+fc.TextSize = 14.000
+fc.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-616.786621, -24.7896214, -328.400146)
+end)
+
+TextLabel_24.Parent = fc
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_24.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_24.Font = Enum.Font.ArialBold
+TextLabel_24.Text = "Fugitives Camp"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextXAlignment = Enum.TextXAlignment.Left
+
+hp.Name = "hp"
+hp.Parent = TeleportFF
+hp.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+hp.BorderColor3 = Color3.fromRGB(85, 97, 117)
+hp.Size = UDim2.new(0, 23, 0, 20)
+hp.Font = Enum.Font.SourceSans
+hp.Text = ""
+hp.TextColor3 = Color3.fromRGB(0, 0, 0)
+hp.TextSize = 14.000
+hp.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(261.958374, 6.91001606, 113.120659)
+end)
+
+TextLabel_25.Parent = hp
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(1.56521738, 0, 0.0500000007, 0)
+TextLabel_25.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_25.Font = Enum.Font.ArialBold
+TextLabel_25.Text = "Helecopter Pad"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextXAlignment = Enum.TextXAlignment.Left
+
+MessageFrame.Name = "MessageFrame"
+MessageFrame.Parent = MainGUI
+MessageFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MessageFrame.BackgroundTransparency = 1.000
+MessageFrame.Position = UDim2.new(0, 0, 0.0180995483, 0)
+MessageFrame.Size = UDim2.new(0, 578, 0, 425)
+MessageFrame.Visible = false
+
+MessageF.Name = "MessageF"
+MessageF.Parent = MessageFrame
+MessageF.BackgroundColor3 = Color3.fromRGB(51, 54, 63)
+MessageF.BorderSizePixel = 0
+MessageF.Position = UDim2.new(0.0328719728, 0, 0.0713122189, 0)
+MessageF.Size = UDim2.new(0, 259, 0, 183)
+
+TopBar_8.Name = "TopBar"
+TopBar_8.Parent = MessageF
+TopBar_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopBar_8.BackgroundTransparency = 1.000
+TopBar_8.Size = UDim2.new(0, 259, 0, 10)
+TopBar_8.Image = "rbxassetid://3570695787"
+TopBar_8.ScaleType = Enum.ScaleType.Slice
+TopBar_8.SliceCenter = Rect.new(100, 100, 100, 100)
+TopBar_8.SliceScale = 0.050
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(199, 110, 43)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 185, 101))}
+UIGradient_8.Parent = TopBar_8
+
+TextLabel_26.Parent = MessageF
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(0, 0, -0.103825137, 0)
+TextLabel_26.Size = UDim2.new(0, 80, 0, 19)
+TextLabel_26.Font = Enum.Font.ArialBold
+TextLabel_26.Text = "FE Message"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 185, 101)
+TextLabel_26.TextSize = 14.000
+
+MessageFF.Name = "MessageFF"
+MessageFF.Parent = MessageF
+MessageFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MessageFF.BackgroundTransparency = 1.000
+MessageFF.Position = UDim2.new(0.0849420875, 0, 0.142076507, 0)
+MessageFF.Size = UDim2.new(0, 215, 0, 146)
+
+Title.Name = "Title"
+Title.Parent = MessageFF
+Title.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 0, 0.102739729, 0)
+Title.Size = UDim2.new(0, 215, 0, 24)
+Title.Font = Enum.Font.ArialBold
+Title.Text = "[Title Text]"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+
+UIListLayout_8.Parent = MessageFF
+UIListLayout_8.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_8.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_8.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_8.Padding = UDim.new(0.100000001, 0)
+
+Message_2.Name = "Message"
+Message_2.Parent = MessageFF
+Message_2.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+Message_2.BorderSizePixel = 0
+Message_2.Position = UDim2.new(0, 0, 0.102739729, 0)
+Message_2.Size = UDim2.new(0, 215, 0, 24)
+Message_2.Font = Enum.Font.ArialBold
+Message_2.Text = "[Body Text]"
+Message_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Message_2.TextSize = 14.000
+
+TextButton.Parent = MessageFF
+TextButton.BackgroundColor3 = Color3.fromRGB(45, 48, 55)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.00465116277, 0, 0.593150735, 0)
+TextButton.Size = UDim2.new(0, 214, 0, 50)
+TextButton.Font = Enum.Font.ArialBold
+TextButton.Text = "Send Message"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Click:connect(function()
+	local A_1 = "FireAllClients"
+	local A_2 = "showNotice"
+	local A_3 = Title.Text
+	local A_4 = Message_2.Text
+	local Event = game:GetService("Workspace").resources.RemoteEvent
+	Event:FireServer(A_1, A_2, A_3, A_4)
+end)
+
+InfoFrame.Name = "InfoFrame"
+InfoFrame.Parent = MainGUI
+InfoFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfoFrame.BackgroundTransparency = 1.000
+InfoFrame.Position = UDim2.new(0, 0, 0.0180995483, 0)
+InfoFrame.Size = UDim2.new(0, 578, 0, 425)
+
+InfoF.Name = "InfoF"
+InfoF.Parent = InfoFrame
+InfoF.BackgroundColor3 = Color3.fromRGB(51, 54, 63)
+InfoF.BorderSizePixel = 0
+InfoF.Position = UDim2.new(0.0328719728, 0, 0.0713122189, 0)
+InfoF.Size = UDim2.new(0, 259, 0, 183)
+
+TopBar_9.Name = "TopBar"
+TopBar_9.Parent = InfoF
+TopBar_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopBar_9.BackgroundTransparency = 1.000
+TopBar_9.Size = UDim2.new(0, 259, 0, 10)
+TopBar_9.Image = "rbxassetid://3570695787"
+TopBar_9.ScaleType = Enum.ScaleType.Slice
+TopBar_9.SliceCenter = Rect.new(100, 100, 100, 100)
+TopBar_9.SliceScale = 0.050
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(199, 110, 43)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 185, 101))}
+UIGradient_9.Parent = TopBar_9
+
+TextLabel_27.Parent = InfoF
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(0, 0, -0.103825137, 0)
+TextLabel_27.Size = UDim2.new(0, 31, 0, 19)
+TextLabel_27.Font = Enum.Font.ArialBold
+TextLabel_27.Text = "Info"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 185, 101)
+TextLabel_27.TextSize = 14.000
+
+InfoFF.Name = "InfoFF"
+InfoFF.Parent = InfoF
+InfoFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfoFF.BackgroundTransparency = 1.000
+InfoFF.Position = UDim2.new(0.0849420875, 0, 0.142076507, 0)
+InfoFF.Size = UDim2.new(0, 215, 0, 146)
+
+UIListLayout_9.Parent = InfoFF
+UIListLayout_9.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_9.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_9.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_9.Padding = UDim.new(0.100000001, 0)
+
+TextLabel_28.Parent = InfoFF
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.Position = UDim2.new(0.0348837227, 0, 0, 0)
+TextLabel_28.Size = UDim2.new(0, 200, 0, 15)
+TextLabel_28.Font = Enum.Font.ArialBold
+TextLabel_28.Text = "GUI Made By: Jmuse#3982"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextSize = 14.000
+
+TextLabel_29.Parent = InfoFF
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.Position = UDim2.new(0.0348837227, 0, 0, 0)
+TextLabel_29.Size = UDim2.new(0, 200, 0, 15)
+TextLabel_29.Font = Enum.Font.ArialBold
+TextLabel_29.Text = "Full credit to the script makers"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextSize = 14.000
+
+TextLabel_30.Parent = InfoFF
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.Position = UDim2.new(0.0348837227, 0, 0.40547955, 0)
+TextLabel_30.Size = UDim2.new(0, 200, 0, 56)
+TextLabel_30.Font = Enum.Font.ArialBold
+TextLabel_30.Text = "Have Fun!"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.TextSize = 14.000
+TextLabel_30.TextWrapped = true
+
+game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(key)
+if key:lower() == "f" then
+    if Everything.Visible == false then
+        Everything.Visible = true
+    else
+        Everything.Visible = false
+    end
+end
+end)
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Info:";
+    Text = "Press [F] to open GUI!";
+    Duration = 10;
+})
+
+--[[
+    GUI Made By: Jmuse#3982
+    Full credit to the original script makers
+    Website: https://rbxcheats.github.io/RbxCheats/
+    If You Find Any Bugs/Errors Just Message Me On Discord - Jmuse#3982
+]]
